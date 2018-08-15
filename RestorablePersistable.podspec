@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/igormuzyka/FileKit-RestorablePersistable.git', :tag => s.version.to_s }
   s.source_files = 'Sources/*'
 
-  s.osx.deployment_target = "10.10"
+  s.osx.deployment_target = "10.11"
   s.ios.deployment_target  = "9.0"
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '3.0'
