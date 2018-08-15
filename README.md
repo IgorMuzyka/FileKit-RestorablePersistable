@@ -25,6 +25,8 @@ struct Object: Codable {
 And then *conform* to `RestorablePersistable`
 
 ```swift
+import FileKit_RestorablePersistable
+
 extension Object: RestorablePersistable {
     
     static let fileExtension: String = ".object"
