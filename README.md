@@ -8,7 +8,7 @@ To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'FileKit'
-pod 'RestorablePersistable', :git => 'https://github.com/IgorMuzyka/FileKit-RestorablePersistable.git'
+pod 'FileKit-RestorablePersistable', :git => 'https://github.com/IgorMuzyka/FileKit-RestorablePersistable.git'
 ```
 
 ## Usage
