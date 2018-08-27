@@ -1,5 +1,6 @@
 
 import FileKit
+import Foundation
 
 public typealias RestorablePersistable = Restorable & Persistable
 

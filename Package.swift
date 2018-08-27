@@ -13,6 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "RestorablePersistable",
-            dependencies: ["FileKit"]),
+            dependencies: ["FileKit"],
+            path: "Sources"),
     ]
 )
