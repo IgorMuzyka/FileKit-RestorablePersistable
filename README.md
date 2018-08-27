@@ -4,11 +4,19 @@ Missing extra conveniences of FileKit.
 
 ## Installation
 
+### Cocoapods
 To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'FileKit'
 pod 'FileKit-RestorablePersistable', :git => 'https://github.com/IgorMuzyka/FileKit-RestorablePersistable.git'
+```
+
+### Swift Package Manager
+To install it add the following line to dependencies in your Package.swift file
+
+```swift
+.package(url: "https://github.com/IgorMuzyka/FileKit-RestorablePersistable", .branch("master"))
 ```
 
 ## Usage
